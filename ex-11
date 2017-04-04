@@ -1,5 +1,6 @@
 <html>
 <head>
+
 <meta charset="utf-8"/>
 <title>Exemplo 11 -Gerson</title>
 <script>
@@ -7,8 +8,13 @@ function quadradonum(numero)
 {
 var resultado=numero*numero;
 alert("O resultado é igual a"+resultado);
-
-
+}
+//
+function ex11(nome, idade, cidade)
+{
+window.document.write("Nome: "+nome+"<br>");
+window.document.write("Idade: "+idade+"<br>");
+window.document.write("Cidade: "+cidade+"<br>");
 }
 </script>
 </head>
@@ -16,11 +22,14 @@ alert("O resultado é igual a"+resultado);
 
 
 <body>
-<h1>Passando valor auma função</h1>
+<h1>Passando valor a uma função</h1>
 <script>
 quadradonum(6);
-
-
+</script>
+<h1>Passando valores para uma função</h1>
+<script>
+ex11("aluno",16,"cidade");
 </script>
 </body>
+
 </html>
